@@ -15,7 +15,7 @@ class subjectWindow(CTk):
         left_panel_width = 0.65
         left_panel = CTkFrame(self, fg_color="red")
         left_panel.place(x=0, y=0, relwidth=left_panel_width, relheight=1)
-        left_panel.rowconfigure((0,1,2,3,4,5), weight=1, uniform="a")
+        # left_panel.rowconfigure((0,1,2,3,4,5), weight=1, uniform="a")
         left_panel.columnconfigure((0,1,2), weight=1, uniform="a")
 
         self.right_panel = CTkFrame(self, fg_color="blue")
@@ -26,8 +26,8 @@ class subjectWindow(CTk):
         def populate_left_panel(subject="Lengua", variable=1):
 
             db_path = "db"
-            subject_path = f"subjects/{subject}/Trimestres/{variable}"
-            filename = "Calificaciones.db" 
+            subject_path = "test" # subject_path = f"subjects/{subject}/Trimestres/{variable}"
+            filename = "testDb.db" # Calificaciones.db
 
             construct_path = os.path.join(db_path, subject_path, filename)
             
