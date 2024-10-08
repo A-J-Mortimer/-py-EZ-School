@@ -7,7 +7,7 @@ class timetableWindow(CTk):
 
         self.title("Window 2")
         self.geometry("900x280")
-        self.iconbitmap("draft\\img\\school.ico")
+        self.iconbitmap("img\\school.ico")
 
         
         background_color = "#ebebeb"

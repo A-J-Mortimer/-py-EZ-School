@@ -18,7 +18,7 @@ class MainWindow(CTk):
         ## DECLARING MASTER WINDOW
         self.title("Main Window")
         self.geometry("1150x500")
-        self.iconbitmap("draft\\img\\school.ico")
+        self.iconbitmap("img\\school.ico")
 
         ## Creating the 3 columns main grid
         self.left_menu = CTkFrame(self, fg_color="transparent")
@@ -38,7 +38,7 @@ class MainWindow(CTk):
 
         ## Creating left_menu widgets
         # IMAGE LABEL - Top Container
-        left_menu_imgPath = Image.open("draft/img/school.ico")
+        left_menu_imgPath = Image.open("img/school.ico")
         left_menu_img = CTkImage(light_image=left_menu_imgPath, dark_image=left_menu_imgPath, size=(95, 95))
         left_menu_icon = CTkLabel(self.left_menu, image=left_menu_img, text="")
         left_menu_icon.grid(row=0, column=0, sticky="nsew", columnspan=2, rowspan=2)

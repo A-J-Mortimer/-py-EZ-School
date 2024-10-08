@@ -7,7 +7,7 @@ class subjectWindow(CTk):
 
         self.title("Horario")
         self.geometry("400x500")
-        self.iconbitmap("draft\\img\\school.ico")
+        self.iconbitmap("img\\school.ico")
 
         self.grid_rowconfigure(0, weight=1)
         self.grid_columnconfigure(0, weight=1)

@@ -5,7 +5,7 @@ from customtkinter import *
 from include.core.math_functions import *
 
 
-db_path = "draft/db"
+db_path = "db"
 
 def process_text_file(subject, type, variable, frame=False, starting_row=False, width=False):
     

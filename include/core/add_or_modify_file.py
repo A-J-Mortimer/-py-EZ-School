@@ -10,7 +10,7 @@ class subjectWindow(CTk):
         win_width = 600
         win_height = 800
         self.geometry(f"{win_width}x{win_height}")
-        self.iconbitmap("draft\\img\\school.ico")
+        self.iconbitmap("img\\school.ico")
 
         left_panel_width = 0.65
         left_panel = CTkFrame(self, fg_color="red")
@@ -25,7 +25,7 @@ class subjectWindow(CTk):
 
         def populate_left_panel(subject="Lengua", variable=1):
 
-            db_path = "draft/db"
+            db_path = "db"
             subject_path = f"subjects/{subject}/Trimestres/{variable}"
             filename = "Calificaciones.db" 
 

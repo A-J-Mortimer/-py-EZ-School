@@ -122,7 +122,7 @@ def generate_subject_info(self, right_menu, subject):
                 # proccess_text_file("lol.txt", "subjects/test", "quarter_info_frame", "Label", 3, 0, 222)
 
             def create_quarter_buttons():
-                img_path = Image.open("draft/img/buttons/add.png")
+                img_path = Image.open("img/buttons/add.png")
                 my_image = CTkImage(light_image=img_path,
                                   dark_image=img_path,
                                   size=(30, 30))
